@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang = "en">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css" integrity="sha512-Ez0cGzNzHR1tYAv56860NLspgUGuQw16GiOOp/I2LuTmpSK9xDXlgJz3XN4cnpXWDmkNBKXR/VDMTCnAaEooxA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel = "stylesheet" href = "./assets/css/style.css" />
     <meta charset = "UTF-8">
     <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
@@ -10,7 +11,7 @@
 <body>
     <header>
         <h1>James V Crawley</h1>
-        <nav>
+        <nav class = "navbar sticky-top navbar-dark">
             <ul>
                 <li>
                     <a href = "#about-me" >About Me</a>
@@ -25,9 +26,15 @@
         </nav>
     </header>
     <!-- hero/profile picture-->
-    <section class = "hero" >
-        <img src = "./assets/images/"
-    </section>
+    <div class = "container">
+        <div class = "row">
+            <div class = "col-4">
+                <img src = "./assets/images/Selfie.jpg" class = "rounded float-start" alt = "" width = "275" height = "375">
+            </div>
+
+            <div class = "col-8"></div>
+        </div>
+    </div>
 
     <section id = "about-me" class = "heading">
         <div class = "title"> 
@@ -37,34 +44,38 @@
         </div>
         <div class = "content">
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ullam maiores vitae assumenda rem. Repellendus eveniet voluptatibus beatae, quod consectetur unde expedita inventore aliquid quam. Sint quasi aliquid accusamus illum.
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, voluptate modi aut voluptates consectetur est aliquid ea nam tempore architecto maiores magnam. Dolore, soluta quos laborum consequatur repellendus fugiat repudiandae.
+                Hello! Welcome to my portfolio page...
             </p>
             <P>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aut et tenetur repudiandae facere? Velit qui ut magni vel, libero quia doloremque nemo minus? Nesciunt, accusamus provident! Optio, maxime odit.
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis dolor natus possimus et beatae distinctio dolorum. Est minus officiis blanditiis quos illum cupiditate? Dolorum ipsa, neque autem dignissimos ea saepe?
+                I am born and raised in Indiana. Currently working for a utility company, I have embarked on a new journey in the world of web development. 
+                My current works are listed below, with more to come as I find my footing in this exciting new phase of growth. 
+                Feel free to reach out or follow me on social media listed at the bottom of the page. Thanks for checking out my page!
             </P>
         </div>
     </section>
 
-    <section id = "works" class = "heading" >
+    <div id = "works" class = "heading container" >
         <div class = "title" >
             <h2>
                 Works
             </h2>
         </div>
-        <div class = "content">
-            <div class = "runBuddy">
-            <h3>Run Buddy</h3>
-                <p>
-                    HTML and CSS
-                </p>
+        <div class = "row">
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/images/Run-Buddy.png" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">Run Buddy</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="https://crawleyj2.github.io/run-buddy/" class="btn" style = "color: #319361">Check it Out!</a>
+                </div>
             </div>
-            <div class = "robotGladiators">
-            <h3>Robot Gladiators</h3>
-                <p>
-                    JavaScript
-                </p>
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/images/Robots.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">Robot Gladiators</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="https://crawleyj2.github.io/robot-gladiators/" class="btn" style = "color: #319361;">Check it Out!</a>
+                </div>
             </div>
         </div>
     </section>
