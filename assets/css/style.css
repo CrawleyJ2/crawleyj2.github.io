@@ -61,7 +61,6 @@ header nav ul li a:hover {
 }
 
 footer {
-    width: 100%;
     padding: 30px 30px;
     background-color: var(--primary-color);
     justify-content: space-between;
@@ -97,6 +96,10 @@ footer nav ul li a:hover {
     text-decoration: underline;
 }
 
+#hero img {
+    margin-top: 10px;
+}
+
 .heading {
     padding: 60px;
 
@@ -104,7 +107,6 @@ footer nav ul li a:hover {
 
 .title {
     display:inline-block;
-    width: 20%;
     vertical-align: top;
 }
 
@@ -118,13 +120,14 @@ footer nav ul li a:hover {
     text-align: left;
 }
 
-.work {
-    flex-direction: row;
-    display: inline-flex;
+#works {
+    display: inline-block;
+    justify-content: space-evenly;
 }
 
 .card {
     margin-right: 20px;
+    margin-bottom: 10px;
     border-radius: 10px;
 }
 
