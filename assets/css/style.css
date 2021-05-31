@@ -100,11 +100,6 @@ footer nav ul li a:hover {
     margin-top: 10px;
 }
 
-.heading {
-    padding: 60px;
-
-}
-
 .title {
     display:inline-block;
     vertical-align: top;
@@ -120,17 +115,13 @@ footer nav ul li a:hover {
     text-align: left;
 }
 
-#works {
-    display: inline-block;
-    justify-content: space-evenly;
-}
-
 .card {
-    margin-right: 20px;
+    margin-right: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
 }
 
 .card img {
     margin-top: 10px;
+    border: 3px solid #319361;
 }
